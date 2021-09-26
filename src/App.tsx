@@ -16,14 +16,16 @@ const DATA_DEFINITIONS = [
   { type: "date", id: "End" },
 ] as const;
 
-const dataRows = [
-  "BIGHIT MUSIC",
-  "BTS(防弾少年団)",
-  new Date(2013, 6, 13),
-  new Date(),
+const chartData = [
+  DATA_DEFINITIONS,
+  ["BIGHIT MUSIC", "BTS(防弾少年団)", new Date(2013, 6, 13), new Date()],
+  [
+    "BIGHIT MUSIC",
+    "TXT(TOMORROW X TOGETHER)",
+    new Date(2019, 3, 4),
+    new Date(),
+  ],
 ];
-
-const chartData = [DATA_DEFINITIONS, dataRows];
 
 function App() {
   return (
