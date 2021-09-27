@@ -5,7 +5,7 @@ import Timeline from "react-visjs-timeline";
 
 const options = {
   width: "100%",
-  height: "60px",
+  height: "100px",
   stack: false,
   showMajorLabels: true,
   showCurrentTime: true,
@@ -19,10 +19,18 @@ const options = {
   },
 };
 
+const items = [
+  {
+    start: new Date(2021, 8, 15),
+    end: new Date(2021, 9, 2), // end is optional
+    content: "Trajectory A",
+  },
+];
+
 function App() {
   return (
     <div className="App">
-      <Timeline options={options} />
+      <Timeline options={options} items={items} />
     </div>
   );
 }
