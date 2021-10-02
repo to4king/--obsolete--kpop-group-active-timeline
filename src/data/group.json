@@ -1,0 +1,15 @@
+{
+  "groups": [
+    {
+      "eventId": "BTS",
+      "laneId": "bighit",
+      "startTimeMillis": 1371081600000,
+      "tooltip": "<ul><li>- members: 6</li><li>- sex: boys</li></ul>"
+    },
+    {
+      "eventId": "TOMORROW X TOGETHER",
+      "laneId": "bighit",
+      "startTimeMillis": 1551657600000
+    }
+  ]
+}

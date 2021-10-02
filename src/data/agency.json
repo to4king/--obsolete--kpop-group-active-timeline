@@ -1,0 +1,12 @@
+{
+  "agencies": [
+    {
+      "laneId": "bighit",
+      "label": "BIGHIT MUSIC"
+    },
+    {
+      "laneId": "jyp",
+      "label": "JYP Entertainment"
+    }
+  ]
+}
