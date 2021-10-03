@@ -43,5 +43,11 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/react-calendar-timeline": "^0.26.4"
+  },
+  "peerDependencies": {
+    "interactjs": "^1.10.11",
+    "moment": "^2.29.1"
+  }
 }
