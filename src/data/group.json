@@ -1,15 +1,26 @@
 {
   "groups": [
     {
-      "eventId": "BTS",
-      "laneId": "bighit",
-      "startTimeMillis": 1371081600000,
-      "tooltip": "<ul><li>- members: 6</li><li>- sex: boys</li></ul>"
+      "id": "1",
+      "group": "1",
+      "title": "BTS",
+      "start": 1371081600000,
+      "end": 1551657600000,
+      "className": "",
+      "itemProps": {
+        "data-tip": ""
+      }
     },
     {
-      "eventId": "TOMORROW X TOGETHER",
-      "laneId": "bighit",
-      "startTimeMillis": 1551657600000
+      "id": "2",
+      "group": "1",
+      "title": "TOMORROW X TOGETHER",
+      "start": 1371081600000,
+      "end": 1551657600000,
+      "className": "",
+      "itemProps": {
+        "data-tip": ""
+      }
     }
   ]
 }

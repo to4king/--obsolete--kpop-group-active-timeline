@@ -1,21 +1,11 @@
 import React from "react";
-import { Timeline } from "react-svg-timeline";
-import agency from "./data/agency.json";
-import group from "./data/group.json";
+import CustomTimeline from "./CustomTimeline";
+// make sure you include the timeline stylesheet or the timeline will not be styled
+import "react-calendar-timeline/lib/Timeline.css";
+import "./style.css";
 
 function App() {
-  const lanes = agency.agencies;
-  const events = group.groups;
-  const dateFormat = (ms: number) => new Date(ms).toLocaleString();
-  return (
-    <Timeline
-      width={600}
-      height={300}
-      events={events}
-      lanes={lanes}
-      dateFormat={dateFormat}
-    />
-  );
+  return <CustomTimeline />;
 }
 
 export default App;

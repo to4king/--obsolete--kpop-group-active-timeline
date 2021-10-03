@@ -1,12 +1,16 @@
 {
   "agencies": [
     {
-      "laneId": "bighit",
-      "label": "BIGHIT MUSIC"
+      "id": "1",
+      "title": "BIGHIT MUSIC",
+      "rightTitle": "",
+      "bgColor": ""
     },
     {
-      "laneId": "jyp",
-      "label": "JYP Entertainment"
+      "id": "2",
+      "title": "JYP Entertainment",
+      "rightTitle": "",
+      "bgColor": ""
     }
   ]
 }
